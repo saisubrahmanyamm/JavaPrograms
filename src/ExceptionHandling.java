@@ -143,7 +143,7 @@ class ExceptionHandling {
 							.println("The Entered date was passed on : " + displayFormatForPastFuture.format(userDate));
 				}
 			}
-		} catch (Exception e) {
+		} catch (InvalidDateException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
